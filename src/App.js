@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div>
-      <h1>To Do List</h1>
+      <h1 style={{backgroundColor: "#6b5b95", width: "50%", padding: "10px", margin: "auto" }}>To Do List</h1>
       <ToDoListInput addToDo={addToDo}/> 
       <ToDoList ToDo={ToDo} removeToDo={removeToDo}/>
     </div>

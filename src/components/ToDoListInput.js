@@ -11,7 +11,7 @@ export default function ToDoListInput(props)   {
         toDoRef.current.value = null
     }
   return (
-    <div>
+    <div style={{backgroundColor: "#d64161", width: "50%", padding: "10px", margin: "auto" }}>
             <input ref={toDoRef} type="text" placeholder="Enter a task" />
             <button onClick={handleSubmit}>Submit</button>
     </div>
